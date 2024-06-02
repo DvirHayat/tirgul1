@@ -8,15 +8,16 @@
 }
 
 .monitor {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-weight: bold;
   font-size: 36px;
   margin-bottom: 10px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   height: 50px;
   text-align: right;
+  border: 3px solid black;
 }
 
 .d-btn {
@@ -24,8 +25,8 @@
   width: calc(25% - 10px);
   margin: 5px;
   text-align: center;
-  background-color: darkgray;
-  color: white;
+  background-color:darkcyan ;
+  color: whitesmoke;
   padding: 20px 0;
   border-radius: 5px;
   cursor: pointer;
@@ -33,7 +34,7 @@
 }
 
 .d-btn:hover {
-  background-color: black;
+  background-color: cadetblue;
 }
 
 .row {
