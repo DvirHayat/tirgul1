@@ -14,9 +14,10 @@ for /f "tokens=1-3 delims=/" %%a in ("%date%") do (
 set "formattedDate=%day%-%month%-%year:~-2%"
 
 :: Run Git commands
+git init
 git status
 git add .
 git commit -m "%formattedDate%"
-git push -u origin main
+git push -u master main 
 
 endlocal
