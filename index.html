@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/styles.css" />
+</head>
+
+<body class="dark:text-white light:text-black">
+    <div id="calculator">
+        <div class="monitor">0</div>
+        <div class="row">
+            <button class="d-btn">7</button>
+            <button class="d-btn">8</button>
+            <button class="d-btn">9</button>
+            <button class="d-btn">/</button>
+        </div>
+        <div class="row">
+            <button class="d-btn">4</button>
+            <button class="d-btn">5</button>
+            <button class="d-btn">6</button>
+            <button class="d-btn">*</button>
+            
+        </div>
+        <div class="row">
+            <button class="d-btn">1</button>
+            <button class="d-btn">2</button>
+            <button class="d-btn">3</button>
+            <button class="d-btn">-</button>
+        </div>
+        <div class="row">
+            <button class="d-btn">0</button>
+            <button class="d-btn">C</button>
+            <button class="d-btn">=</button>
+            <button class="d-btn">+</button>
+        </div>
+    </div>
+
+    <script>
+        // custom config for the MTW app 
+        const mtwAppConfig = {
+            border: true // app border in the MTW page                    
+        }
+
+        ///////////////////////////////////////////////////////
+        // implement this functions in order to use private API        
+        const sendPrivateApiRequest = async () => {
+            // your code here:
+            // sendRequestToParent({ cat: 'getAssets' })
+        }        
+
+        const acceptPrivateApiResponse = async (data) => {
+            // process received data here:
+            // console.log(data)
+        }
+
+        // use this in order to send on document load
+        document.addEventListener('DOMContentLoaded', () => {
+            // your code here:
+            //sendRequestToParent({ method: 'getAssets' })
+        })
+
+    </script>
+    <script src="https://morethanwallet.com/appstore/index.js"></script>
+</body>
+
+</html>
